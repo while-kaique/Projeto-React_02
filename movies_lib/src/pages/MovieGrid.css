@@ -1,8 +1,16 @@
+
+
 .container .title{
     color: #fff;
     font-size: 2.5rem;
     text-align: center;
     margin: 2rem 0 1rem;
+}
+
+.container p{
+    text-align: center;
+    margin: 0 auto;
+    
 }
 
 .title .query-text {
@@ -37,10 +45,13 @@
 .movies-container div h2,
 .movies-container div p{
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .movies-container div svg{
     color: #f7d354;
+    margin-right: .2rem;
+    padding-top: .1rem;
 }
 
 .movies-container div a{

@@ -2,8 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: #121212;
+    padding: 2rem 3rem;
+    background-color: #1f1d1d;
+}
+
+#navbar h2{
+    font-size: 2rem;
 }
 
 #navbar h2 a{

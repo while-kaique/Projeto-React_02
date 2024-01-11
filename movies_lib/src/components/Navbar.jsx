@@ -15,6 +15,8 @@ function Navbar() {
         
         if (!search) return
 
+
+        // search é a variável que guarda a pesquisa do cliente na barra de pesquisa
         navigate(`/search?q=${search}`)
         setSearch('')
     }
@@ -25,7 +27,7 @@ function Navbar() {
             <h2>
                 <Link to='/'>
                     <BiCameraMovie /> 
-                    Movies Lib
+                    Kai Movies Lib
                 </Link>
             </h2>
                 <form onSubmit={handleSubmit}>
