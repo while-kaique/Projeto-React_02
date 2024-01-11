@@ -27,7 +27,7 @@ function Navbar() {
             <h2>
                 <Link to='/'>
                     <BiCameraMovie /> 
-                    Kai Movies Lib
+                    KaiFlix
                 </Link>
             </h2>
                 <form onSubmit={handleSubmit}>

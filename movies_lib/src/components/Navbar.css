@@ -3,11 +3,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem 3rem;
-    background-color: #1f1d1d;
+    background-color: #0f0f0f;
 }
 
 #navbar h2{
     font-size: 2rem;
+}
+#navbar h2 svg{
+    height: 1.9rem;
 }
 
 #navbar h2 a{

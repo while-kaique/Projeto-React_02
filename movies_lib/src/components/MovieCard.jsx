@@ -12,7 +12,7 @@ function MovieCard ({movie, showLink = true})  {
         <img src={imageUrl + movie.poster_path} alt={movie.title} />
         <h2>{movie.title}</h2>
         <p>
-            <FaStar />
+            <FaStar id="star" />
             {movie.vote_average}
         </p>
 
